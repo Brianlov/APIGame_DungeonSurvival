@@ -34,9 +34,9 @@ app.delete('/api/players/:playerId/inventory/:itemId', async (req, res) => {
 
 
 
-app.listen(port,()=>{
-    console.log(`Server listening at http://localhost:${port}`);
-});
+// app.listen(port,()=>{
+//     console.log(`Server listening at http://localhost:${port}`);
+// });
 
 
 
